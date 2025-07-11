@@ -67,6 +67,8 @@ class _PopupOutsideOfMapPageState extends State<PopupOutsideOfMapPage> {
                         TileLayer(
                           urlTemplate:
                               'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                          userAgentPackageName:
+                              'dev.fleaflet.flutter_map_example',
                         ),
                         PopupMarkerLayer(
                           options: PopupMarkerLayerOptions(
